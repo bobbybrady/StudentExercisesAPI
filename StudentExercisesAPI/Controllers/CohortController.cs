@@ -50,8 +50,6 @@ namespace StudentExercisesAPI.Controllers
                             {
                                 Id = reader.GetInt32(reader.GetOrdinal("CohortId")),
                                 Name = reader.GetString(reader.GetOrdinal("CohortName")),
-
-
                             };
                             cohorts.Add(cohortId, cohort);
                         }
